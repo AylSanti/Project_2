@@ -1,0 +1,35 @@
+.background    { background: rgb(52, 166, 251);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;         }
+.acid          { background: 	#a1ff52	; }
+.wall          { background-image: url("stone.jpg") ;   }
+.floater       { background-image: url("cracked_stone.jpg"); }
+
+
+.actor  { position: absolute;  }
+.player { background: #142020; }
+.coin { background: rgb(241, 229, 89);
+         box-shadow: -4px -7px 8px white, 4px -7px 8px white; }
+.enemy {background: #094540; }
+.flag {background: #873600;  }  
+
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: #A4FFA4 ;
+}
+
+.lose .player{
+  background: #cd0000;
+}
+.won .player {
+  background: #ffc100;
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
